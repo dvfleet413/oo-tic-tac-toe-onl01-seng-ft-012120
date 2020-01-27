@@ -102,8 +102,8 @@ class TicTacToe
   end
   
   def play
-    while !full? do
-     display_board
+    display_board
+    while !over? do
      turn
    end
   end 
