@@ -100,4 +100,8 @@ class TicTacToe
     @winner
   end
   
+  def play
+    
+  end 
+  
 end
