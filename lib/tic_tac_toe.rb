@@ -105,7 +105,12 @@ class TicTacToe
     display_board
     while !over? do
      turn
-   end
+    end
+    if won?
+      puts "Player #{@winner} wins!"
+    elsif draw?
+      puts "It's a draw!"
+    end
   end 
 end
 
