@@ -107,11 +107,9 @@ class TicTacToe
      turn
     end
     if won?
-      puts "Player #{@winner} wins!"
+      puts "Congratulations #{@winner}!"
     elsif draw?
-      puts "It's a draw!"
+      puts "Cat's Game!"
     end
   end 
 end
-
-binding.pry
