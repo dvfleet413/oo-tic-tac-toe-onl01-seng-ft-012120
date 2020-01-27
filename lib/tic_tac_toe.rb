@@ -97,7 +97,6 @@ class TicTacToe
   def winner
     self.won?
     @winner
-    binding.pry
   end
   
 end
