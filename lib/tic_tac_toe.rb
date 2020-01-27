@@ -34,7 +34,7 @@ class TicTacToe
   
   def turn 
     player = self.current_player
-    puts " #{playe}, make a move - enter a number 1 through 9"
+    puts " #{player}, make a move - enter a number 1 through 9"
     index = self.input_to_index(gets.chomp)
     if self.valid_move?(index) 
       self.move(index, player)
